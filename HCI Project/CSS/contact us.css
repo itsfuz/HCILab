@@ -1,0 +1,158 @@
+/* header footer*/
+
+header, footer{
+
+    background-color: rgb(39, 31, 114);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.headLeft{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left:100px;
+    
+}
+
+.name{
+    font-size: 50px;
+    color:white
+}
+
+.logo{
+    
+    padding: 20px;
+}
+
+.headRight {
+    display: flex; 
+    flex-direction: row;
+    margin-right: 20px;
+    
+}
+
+header .headRight .nav-link, 
+.dropdown .dropdown-menu .dropdown-item{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 23.5px;
+    padding-left:60px;
+    padding-right: 60px;
+    display: block;
+}
+
+.headRight .nav-item:hover, 
+.dropdown-item:hover{
+    background-color: white;
+    transition: 0.6s;
+    transform: scale(1.1);
+    
+}
+
+.nav-item .nav-link:hover,
+.dropdown .dropdown-item:hover{
+    color:rgb(39, 31, 114);
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown .dropdown-menu{
+    position: absolute;
+    background-color: rgb(71, 64, 141);
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+footer .leftTail{
+    color: white;
+    margin-left: 2%;
+}
+
+footer .rightTail{
+    font-size: 50px;
+    color: white;
+    margin-right: 2%;
+}
+
+/* content */
+
+.content{
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgb(39, 31, 114);
+}
+
+.title h1{
+
+    font-size: 70px;
+    margin-bottom: 2%;
+}
+
+.title p{
+    font-size: 40px;
+    margin-top: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.profiles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+
+
+.profiles .profile{
+
+    margin: 0%;
+    padding: 8%;
+    font-size: 35px;
+    background-color:rgb(139, 144, 189);
+    width: 100px;
+    border-radius: 45px 150px;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+}
+
+.profiles .profile:hover{
+
+    background-color: rgb(71, 64, 141);
+    color: white;
+    border-radius: 150px 45px;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.text{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+body{
+    margin:0px;
+    background-color:rgb(219, 225, 231);
+}

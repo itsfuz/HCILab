@@ -1,0 +1,185 @@
+/* Header*/
+
+/* header footer*/
+
+header, footer{
+
+    background-color: rgb(39, 31, 114);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.headLeft{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left:100px;
+    
+}
+
+.name{
+    font-size: 50px;
+    color:white
+}
+
+.logo{
+    
+    padding: 20px;
+}
+
+.headRight {
+    display: flex; 
+    flex-direction: row;
+    margin-right: 20px;
+    
+}
+
+header .headRight .nav-link, 
+.dropdown .dropdown-menu .dropdown-item{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 23.5px;
+    padding-left:60px;
+    padding-right: 60px;
+    display: block;
+}
+
+.headRight .nav-item:hover, 
+.dropdown-item:hover{
+    background-color: white;
+    transition: 0.6s;
+    transform: scale(1.1);
+    
+}
+
+.nav-item .nav-link:hover,
+.dropdown .dropdown-item:hover{
+    color:rgb(39, 31, 114);
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown .dropdown-menu{
+    position: absolute;
+    background-color: rgb(71, 64, 141);
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+footer .leftTail{
+    color: white;
+    margin-left: 2%;
+}
+
+footer .rightTail{
+    font-size: 50px;
+    color: white;
+    margin-right: 2%;
+}
+
+/* image slider */
+
+.content{
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+#salesHeading{
+    font-size: 80px;
+}
+
+.Container{
+
+    background-color: rgb(139, 144, 189);
+    width: 1300px;
+    height: 700px;
+    border-radius: 45px 150px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+#leftBtn, #rightBtn{
+
+    display: inline-block;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    width: 50px;
+    height: 80px;
+    vertical-align: middle;
+    background-color: rgb(153, 153, 153);
+    margin: 0 3%;
+    
+}
+
+#leftBtn{
+    border-radius: 45px 150px;
+}
+
+#rightBtn{
+    border-radius: 150px 45px;
+}
+
+
+#leftBtn:active, #rightBtn:active{
+    opacity: 0.5;
+}
+
+#leftBtn:active:after, #rightBtn:active:after{
+    opacity: 1;
+}
+
+.slider{
+
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    margin-bottom: 5px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.slider div.slides{
+    position: relative;
+    width: 80%;
+}
+
+.slider div.slides div.slidescontent{
+    display: block;
+    float: left;
+}
+
+.slidescontent img{
+
+    width: 700px;
+    border-radius: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    margin:0px;
+    background-color:rgb(219, 225, 231);
+}
