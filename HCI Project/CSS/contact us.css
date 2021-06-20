@@ -25,10 +25,18 @@ header, footer{
     color:white
 }
 
-.logo{
-    
+.logo img{
+    width: 90px;
+    height: 75px;
     padding: 20px;
+    transition: transform 0.5s ease-in-out;
 }
+
+.logo img:hover{
+    transition: 0.5s;
+    transform: rotate(180deg);
+}
+
 
 .headRight {
     display: flex; 
@@ -86,6 +94,11 @@ footer .rightTail{
     font-size: 50px;
     color: white;
     margin-right: 2%;
+}
+
+body{
+    margin: 0;
+    background-color:rgb(219, 225, 231);
 }
 
 /* content */

@@ -29,11 +29,12 @@ header, footer{
     width: 90px;
     height: 75px;
     padding: 20px;
+    transition: transform 0.5s ease-in-out;
 }
 
 .logo img:hover{
     transition: 0.5s;
-    transform: rotate(180);
+    transform: rotate(180deg);
 }
 
 
