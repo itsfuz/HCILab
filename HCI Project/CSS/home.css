@@ -100,7 +100,14 @@ footer .rightTail{
 }
 
 #salesHeading{
-    font-size: 70px;
+    font-size: 50px;
+    background-color: rgb(117, 108, 199);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+    border-radius: 60px 25px;
 }
 
 .Container{
@@ -183,7 +190,7 @@ footer .rightTail{
 
 #BSTitle{
     margin-top: 1%;
-    font-size: 70px;
+    font-size: 50px;
     color: rgb(71, 64, 141);
     margin-bottom: 1%;
 }
@@ -206,7 +213,7 @@ footer .rightTail{
 .productProfile{
     background-color: white;
     padding: 5%;
-    font-size: 40px;
+    font-size: 30px;
     border-radius: 20px;
     text-align: center;
     color: rgb(78, 85, 150);
@@ -232,7 +239,7 @@ footer .rightTail{
     background-color: rgb(78, 85, 150);
     padding: 5%;
     border-radius: 45px 150px;
-    width: 60%;
+    width: 50%;
 }
 
 
