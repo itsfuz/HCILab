@@ -100,7 +100,7 @@ footer .rightTail{
 }
 
 #salesHeading{
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .Container{
@@ -178,6 +178,63 @@ footer .rightTail{
     display: flex;
     justify-content: center;
 }
+
+/* best sellers section */
+
+#BSTitle{
+    margin-top: 1%;
+    font-size: 70px;
+    color: rgb(71, 64, 141);
+    margin-bottom: 1%;
+}
+
+#line1{
+    background-color: rgb(71, 64, 141);
+    height: 20px;
+    width: 70%;
+    margin-bottom: 0%;
+    margin-top: 5%;
+}
+
+#line{
+    background-color: rgb(71, 64, 141);
+    height: 20px;
+    width: 70%;
+    margin-bottom: 2%;
+}
+
+.productProfile{
+    background-color: white;
+    padding: 5%;
+    font-size: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(78, 85, 150);
+}
+
+.productProfile:hover{
+
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.productProfile img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.bestSellers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: rgb(78, 85, 150);
+    padding: 5%;
+    border-radius: 45px 150px;
+    width: 60%;
+}
+
 
 body{
     margin:0px;
