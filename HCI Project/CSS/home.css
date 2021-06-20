@@ -29,6 +29,10 @@ footer {
   padding: 20px;
 }
 
+.logo img {
+  size: 20px;
+}
+
 .headRight {
   display: flex;
   flex-direction: row;
