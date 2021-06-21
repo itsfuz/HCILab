@@ -2,105 +2,99 @@
 
 /* header footer*/
 
-header, footer{
-
-    background-color: rgb(39, 31, 114);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-    font-family: 'Bebas Neue', cursive;
+header,
+footer {
+  background-color: rgb(39, 31, 114);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  font-family: "Bebas Neue", cursive;
 }
 
-.headLeft{
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-left:100px;
-    
+.headLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 100px;
 }
 
-.name{
-    font-size: 50px;
-    color:white
+.name {
+  font-size: 50px;
+  color: white;
 }
 
-.logo img{
-    width: 90px;
-    height: 75px;
-    padding: 20px;
-    transition: transform 0.5s ease-in-out;
+.logo img {
+  width: 90px;
+  height: 75px;
+  padding: 20px;
+  transition: transform 0.5s ease-in-out;
 }
 
-.logo img:hover{
-    transition: 0.5s;
-    transform: rotate(180deg);
+.logo img:hover {
+  transition: 0.5s;
+  transform: rotate(180deg);
 }
-
 
 .headRight {
-    display: flex; 
-    flex-direction: row;
-    margin-right: 20px;
-    
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
 }
 
-header .headRight .nav-link, 
-.dropdown .dropdown-menu .dropdown-item{
-    text-decoration: none;
-    color: white;
-    font-size: 25px;
-    padding: 23.5px;
-    padding-left:60px;
-    padding-right: 60px;
-    display: block;
+header .headRight .nav-link,
+.dropdown .dropdown-menu .dropdown-item {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  padding: 23.5px;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: block;
 }
 
-.headRight .nav-item:hover, 
-.dropdown-item:hover{
-    background-color: white;
-    transition: 0.6s;
-    transform: scale(1.1);
-    
+.headRight .nav-item:hover,
+.dropdown-item:hover {
+  background-color: white;
+  transition: 0.6s;
+  transform: scale(1.1);
 }
 
 .nav-item .nav-link:hover,
-.dropdown .dropdown-item:hover{
-    color:rgb(39, 31, 114);
+.dropdown .dropdown-item:hover {
+  color: rgb(39, 31, 114);
 }
 
-.dropdown{
-    position: relative;
+.dropdown {
+  position: relative;
 }
 
-.dropdown .dropdown-menu{
-    position: absolute;
-    background-color: rgb(71, 64, 141);
-    display: none;
+.dropdown .dropdown-menu {
+  position: absolute;
+  background-color: rgb(71, 64, 141);
+  display: none;
 }
 
-.dropdown:hover .dropdown-menu{
-    display: flex;
-    flex-direction: column;
-    
+.dropdown:hover .dropdown-menu {
+  display: flex;
+  flex-direction: column;
 }
 
-footer .leftTail{
-    color: white;
-    margin-left: 2%;
+footer .leftTail {
+  color: white;
+  margin-left: 2%;
 }
 
-footer .rightTail{
-    font-size: 50px;
-    color: white;
-    margin-right: 2%;
+footer .rightTail {
+  font-size: 50px;
+  color: white;
+  margin-right: 2%;
 }
 
-body{
-    margin: 0;
-    background-color:rgb(219, 225, 231);
+body {
+  margin: 0;
+  background-color: rgb(219, 225, 231);
 }
 /* image slider */
 
@@ -111,15 +105,15 @@ body{
   align-items: center;
 }
 
-#salesHeading{
-    font-size: 50px;
-    background-color: rgb(117, 108, 199);
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    color: white;
-    border-radius: 60px 25px;
+#salesHeading {
+  font-size: 50px;
+  background-color: rgb(117, 108, 199);
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: white;
+  border-radius: 60px 25px;
 }
 
 .Container {
@@ -197,11 +191,11 @@ body{
 
 /* best sellers section */
 
-#BSTitle{
-    margin-top: 1%;
-    font-size: 50px;
-    color: rgb(71, 64, 141);
-    margin-bottom: 1%;
+#BSTitle {
+  margin-top: 1%;
+  font-size: 50px;
+  color: rgb(71, 64, 141);
+  margin-bottom: 1%;
 }
 
 #line1 {
@@ -219,13 +213,13 @@ body{
   margin-bottom: 2%;
 }
 
-.productProfile{
-    background-color: white;
-    padding: 5%;
-    font-size: 30px;
-    border-radius: 20px;
-    text-align: center;
-    color: rgb(78, 85, 150);
+.productProfile {
+  background-color: white;
+  padding: 5%;
+  font-size: 30px;
+  border-radius: 20px;
+  text-align: center;
+  color: rgb(78, 85, 150);
 }
 
 .productProfile:hover {
@@ -238,19 +232,23 @@ body{
   border-radius: 10px;
 }
 
-.bestSellers{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    background-color: rgb(78, 85, 150);
-    padding: 5%;
-    border-radius: 45px 150px;
-    width: 50%;
+.bestSellers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: rgb(78, 85, 150);
+  padding: 5%;
+  border-radius: 45px 150px;
+  width: 50%;
 }
 
 body {
   margin: 0px;
   background-color: rgb(219, 225, 231);
+}
+
+.productDescription {
+  font-family: "Montserrat";
 }
