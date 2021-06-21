@@ -96,19 +96,19 @@ header, footer {
 
 .content{
     font-family: 'Bebas Neue', cursive;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     color: rgb(39, 31, 114);
 }
 
 .title h1{
 
-    font-size: 70px;
+    font-size: 50px;
     margin-bottom: 2%;
 }
 
 .title p{
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 0;
     font-family: 'Bebas Neue', cursive;
 }
@@ -118,14 +118,13 @@ header, footer {
     flex-direction: row;
     justify-content: space-between;
     
-    
 }
 
 .profiles .profile{
 
     margin: 0%;
     padding: 8%;
-    font-size: 35px;
+    font-size: 20px;
     background-color:rgb(139, 144, 189);
     width: 100px;
     border-radius: 45px 150px;
@@ -136,7 +135,7 @@ header, footer {
 }
 
 .profile img{
-    width: 200px;
+    width: 150px;
     border-radius: 90px;
 }
 
@@ -150,7 +149,7 @@ header, footer {
 }
 
 .text{
-    font-size: 40px;
+    font-size: 35px;
     display: flex;
     align-items: center;
     margin-top: 4%;
