@@ -1,9 +1,6 @@
-/* Header*/
-
 /* header footer*/
 
-header,
-footer {
+header, footer {
   background-color: rgb(39, 31, 114);
   display: flex;
   flex-direction: row;
@@ -17,11 +14,11 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 100px;
+  padding-left: 3%;
 }
 
 .name {
-  font-size: 50px;
+  font-size: 30px;
   color: white;
 }
 
@@ -40,14 +37,14 @@ footer {
 .headRight {
   display: flex;
   flex-direction: row;
-  margin-right: 20px;
+  margin-right: 2%;
 }
 
 header .headRight .nav-link,
 .dropdown .dropdown-menu .dropdown-item {
   text-decoration: none;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   padding: 23.5px;
   padding-left: 60px;
   padding-right: 60px;
@@ -118,8 +115,8 @@ body {
 
 .Container {
   background-color: rgb(139, 144, 189);
-  width: 1300px;
-  height: 700px;
+  width: 60%;
+  height: 20%;
   border-radius: 45px 150px;
   overflow: hidden;
   display: flex;
@@ -180,7 +177,7 @@ body {
 }
 
 .slidescontent img {
-  width: 700px;
+  width: 900px;
   border-radius: 20px;
 }
 
@@ -216,10 +213,12 @@ body {
 .productProfile {
   background-color: white;
   padding: 5%;
-  font-size: 30px;
+  font-size: 20px;
   border-radius: 20px;
   text-align: center;
   color: rgb(78, 85, 150);
+  font-family: "Montserrat";
+  width: 30%;
 }
 
 .productProfile:hover {
@@ -229,7 +228,12 @@ body {
 
 .productProfile img {
   width: 200px;
+  height: 200px;
   border-radius: 10px;
+}
+
+#pDesc{
+  font-size: 18px;
 }
 
 .bestSellers {
@@ -241,7 +245,7 @@ body {
   background-color: rgb(78, 85, 150);
   padding: 5%;
   border-radius: 45px 150px;
-  width: 50%;
+  width: 60%;
 }
 
 body {
@@ -249,6 +253,3 @@ body {
   background-color: rgb(219, 225, 231);
 }
 
-.productDescription {
-  font-family: "Montserrat";
-}
