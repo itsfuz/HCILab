@@ -132,6 +132,7 @@ header, footer {
     align-items: center;
     display: flex;
     flex-direction:column;
+    text-align: center;
 }
 
 .profile img{
@@ -141,8 +142,7 @@ header, footer {
 
 .profiles .profile:hover{
 
-    background-color: rgb(71, 64, 141);
-    color: white;
+    background-color: white;
     border-radius: 150px 45px;
     transform: scale(1.1);
     transition: 0.5s;
@@ -158,6 +158,48 @@ header, footer {
 
 }
 
+/* location */
+
+.location{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+.location .title{
+
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 20px 50px;
+}
+
+.location .locationInfo{
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(39, 31, 114);
+  color: white;
+  border-radius: 30px 90px;
+  padding-top: 3%;
+}
+
+.locationInfo img{
+
+  width: 250px;
+  height: 250px;
+  border-radius: 90px;
+}
 
 body{
     margin:0px;
