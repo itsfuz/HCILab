@@ -1,6 +1,7 @@
 /* header footer*/
 
-header, footer {
+header,
+footer {
   background-color: rgb(39, 31, 114);
   display: flex;
   flex-direction: row;
@@ -172,12 +173,14 @@ body {
 }
 
 .slider div.slides div.slidescontent {
-  display: block;
-  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .slidescontent img {
-  width: 900px;
+  margin-left: 20%;
+  width: 300px;
   border-radius: 20px;
 }
 
@@ -232,7 +235,7 @@ body {
   border-radius: 10px;
 }
 
-#pDesc{
+#pDesc {
   font-size: 18px;
 }
 
@@ -252,4 +255,3 @@ body {
   margin: 0px;
   background-color: rgb(219, 225, 231);
 }
-
