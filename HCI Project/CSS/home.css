@@ -8,7 +8,6 @@ footer {
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  font-family: "Bebas Neue", cursive;
 }
 
 .headLeft {
@@ -161,7 +160,6 @@ body {
   display: inline-block;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   margin-bottom: 5px;
   vertical-align: middle;
   width: 100%;
@@ -179,8 +177,9 @@ body {
 }
 
 .slidescontent img {
-  margin-left: 20%;
+  margin-left: 25%;
   width: 300px;
+  height: 300px;
   border-radius: 20px;
 }
 

@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  let images = $(".container .slider .slides .slidescontent img");
+  let images = $(" .slidescontent img");
   let index = 0;
   images.hide();
   images.eq(index).show();
